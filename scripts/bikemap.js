@@ -2,6 +2,9 @@ var map;
 var infowindow;
 var contentString;
 var bikeRacks = [];
+var image = new google.maps.MarkerImage('img/dot.png',
+  new google.maps.Size(10,10)
+);
 
 function initialize() {
 	var myOptions = {
@@ -38,6 +41,7 @@ function dispCSV(csvdoc) {
 			bikeRackCoords = new google.maps.LatLng(lineElem[1], lineElem[0]);
 
 			bikeRacks[i] = new google.maps.Marker({
+				icon: image,
 				pixelOffset: new google.maps.Size(54, 75),
 				position: bikeRackCoords,
 				map: map,
