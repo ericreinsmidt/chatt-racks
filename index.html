@@ -9,7 +9,7 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="scripts/bikemap.js" type="text/javascript" charset="utf-8" async defer></script>
   </head>
-  <body onload="initialize();">
+  <body onload="initialize(); makeRequest('data/bikerackavailable.txt');">
     <div id="map_canvas">
     </div>
     <div id="button">
