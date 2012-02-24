@@ -2,7 +2,7 @@ var map;
 var infowindow;
 var contentString;
 var bikeRacks = [];
-var zoomLevel = 11
+var zoomLevel = 14
 var image = new google.maps.MarkerImage('img/dot.png',
 	new google.maps.Size(10,10)
 );
@@ -18,8 +18,8 @@ function initialize(filename) {
 	map = new google.maps.Map(document.getElementById("map_canvas"),
 		myOptions);
 	makeRequest(filename);
-	prepareGeolocation();
-	doGeolocation();
+	//prepareGeolocation();
+	//doGeolocation();
 }
 
 function clearMarkers() {
