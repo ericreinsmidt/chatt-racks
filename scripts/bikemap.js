@@ -11,6 +11,7 @@ function initialize(filename) {
 	var myOptions = {
 		center: new google.maps.LatLng(35.047996,-85.305544),
 		zoom: zoomLevel,
+		mapTypeControl: false,
 		mapTypeId: google.maps.MapTypeId.HYBRID
 	};
 	detectBrowser();
@@ -48,7 +49,7 @@ function detectBrowser() {
 		mapdiv.style.marginRight = '5%';
 		mapdiv.style.width = '90%';
 		mapdiv.style.height = '90%';
-		button.style.width = '90%';
+		button.style.width = '268px';
 		button.style.height = '5%';
 	}
 }
