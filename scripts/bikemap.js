@@ -38,9 +38,11 @@ function detectBrowser() {
 
 	if (useragent.indexOf('iPhone') != -1 || useragent.indexOf('Android') != -1 ) {
 		mapdiv.style.width = '100%';
-		mapdiv.style.height = '95%';
+		mapdiv.style.height = '100%';
 		button.style.width = '100%';
-		button.style.height = '5%';
+		//button.style.height = '5%';
+		button.style.position = 'fixed';
+		button.style.bottom = '0px';
 	} else {
 		mapdiv.style.marginLeft = '5%';
 		mapdiv.style.marginRight = '5%';
