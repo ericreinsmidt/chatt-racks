@@ -1,0 +1,90 @@
+-85.318047	35.052204	BCBS	Proposed	N/A	N/A
+-85.313087	35.0499	YMCA	Proposed	N/A	N/A
+-85.312569	35.062813	Food Works	Proposed	36	N/A
+-85.308945	35.062691	Suntrust Bank - Frazier Ave	Proposed	N/A	N/A
+-85.307213	35.062565	Terra Nostra Frazier Ave	Proposed	N/A	N/A
+-85.309853	35.054169	Rhythm & Brews - Market St.	Proposed	N/A	N/A
+-85.30986	35.055054	TGI Fridays/History Center - Market & 3rd	Proposed	N/A	N/A
+-85.309769	35.05167	Panera Bread - Market & 4th	Proposed	N/A	N/A
+-85.309677	35.049435	Regions Bank - 6th & Market	Proposed	N/A	N/A
+-85.309929	35.05122	Buehler's Market - Market & 5th	Proposed	N/A	N/A
+-85.309692	35.050552	Family Dollar - 5th & Market	Proposed	N/A	N/A
+-85.309593	35.046879	Zarzour's - 809 Market St.	Proposed	N/A	N/A
+-85.308464	35.046124	Miller Plaza - Cherry St.	Proposed	N/A	N/A
+-85.30925	35.045113	Miller Park - Market and 10th	Proposed	N/A	N/A
+-85.30957	35.045624	EPB Market St.	Proposed	N/A	N/A
+-85.306686	35.046036	Honest Pint - Patten pky	Proposed	N/A	N/A
+-85.305832	35.044941	JJ's Bohemia - MLK	Proposed	N/A	N/A
+-85.306923	35.044876	Bessie Smith Cultural Center/Lindsay St. Hall - MLK & Lindsay	Proposed	N/A	N/A
+-85.311989	35.045242	City Cafe - MLK & Chestnut	Proposed	N/A	N/A
+-85.309563	35.045002	Jimmy John's - 10th and Market	Proposed	N/A	N/A
+-85.309273	35.044239	Pickle Barrel - Market & Georgia	Proposed	N/A	N/A
+-85.308548	35.042137	Public House - Market & 12th	Proposed	N/A	N/A
+-85.292892	35.039955	Lamar's - MLK and Central	Proposed	N/A	N/A
+-85.308258	35.040527	Porker's BBQ - 13th & Market	Proposed	N/A	N/A
+-85.315041	35.037468	Finley Stadium	Proposed	North	N/A
+-85.310867	35.03738	La Altena/Carniceria Loa - Broad and Main	Proposed	N/A	N/A
+-85.308685	35.036716	Main Street Market - Main St.	Proposed	N/A	N/A
+-85.305588	35.035397	Hart Gallery - Main & Rossville Ave. (Apartments in bldg.)	Proposed	N/A	N/A
+-85.301926	35.034008	Velo Coffee - Main & Adams	Proposed	N/A	N/A
+-85.316788	35.036999	1st Tennessee Pavilion - Reggie White Blvd.	Proposed	N/A	N/A
+-85.316078	35.035454	Finley Stadium  South Entrance	Proposed	N/A	N/A
+-85.298744	35.066963	Aretha Frankenstein's	Proposed	N/A	N/A
+-85.315071	35.06715	Sluggos - Cherokee Blvd and Spring St.	Proposed	N/A	N/A
+-85.32859	35.010483	Mojo Burrito - St. Elmo Ave & Silvels	Proposed	N/A	N/A
+-85.328117	35.009903	Blacksmith's Bistro - St. Elmo Ave.	Proposed	N/A	N/A
+-85.299179	35.042191	Urban League - MLK & Peeples	Proposed	N/A	N/A
+-85.3153	35.044552	Chattanooga Human Services Dept. - 501 W. 12th St.	Proposed	N/A	N/A
+-85.307587	35.03994	Meeting Place	Proposed	36 from curb	N/A
+-85.309402	35.04734	CVB	Proposed	24 from planter; aligned with tree	N/A
+-85.309387	35.048531	United Way	Proposed	36 from curb - aligned with planter (slab divider)	N/A
+-85.309471	35.05117	Taziki's/Johnson Group	Proposed	36 from curb; between parking spaces	N/A
+-85.307602	35.036339	Blue Orleans	Proposed	N/A	N/A
+-85.306839	35.036041	Alleia	Proposed	N/A	N/A
+-85.313461	35.038544	T-Bones	Proposed	N/A	N/A
+-85.313347	35.042927	Siskin	Proposed	36 from curb	N/A
+-85.31311	35.053661	AT&T Stadium	Proposed	N/A	N/A
+-85.313385	35.053608	AT&T Stadium	Proposed	Larger rack	N/A
+-85.312035	35.052624	Creative Discovery Museum	Proposed	Larger rack	N/A
+-85.30941	35.041313	Crye-Leike	Proposed	36 from curb	N/A
+-85.310738	35.046906	Capital Mark Bank	Proposed	36	N/A
+-85.310745	35.047863	"Tivoli - Broad, 7th"	Proposed	36	N/A
+-85.310822	35.049068	Areva	Proposed	36	N/A
+-85.310387	35.049419	Regions	Proposed	36	N/A
+-85.310852	35.051392	JK3 Clothing Store	Proposed	36 (alternative placement: 24 from railing)	N/A
+-85.31086	35.052048	Five Guys	Proposed	24	N/A
+-85.310959	35.053921	Visitor's Center	Proposed	24	N/A
+-85.311989	35.054886	Hennen's	Proposed	36	N/A
+-85.305214	35.047073	Ayrshire Apartments	Proposed	36	N/A
+-85.303192	35.046387	TN State Building	Proposed	36	N/A
+-85.297119	35.044403	Yellow Deli	Proposed	24	N/A
+-85.302155	35.043339	Champy's	Proposed	24	N/A
+-85.277596	35.033337	TN Temple University	Proposed	N/A	N/A
+-85.303947	35.061501	Marco's Italian Restaurant	Proposed	N/A	N/A
+-85.305069	35.06179	North Chatt Cat	Proposed	N/A	N/A
+-85.304405	35.054207	Bluff View Bakery- Art District Cv.	Proposed	N/A	N/A
+-85.311462	35.045879	Porter's- Chstnut St./MLK	Proposed	N/A	N/A
+-85.307846	35.062546	Norhshore Grille/Leo	Proposed	N/A	N/A
+-85.3078	35.043427	City Hall - Lindsay/11th	Proposed	N/A	N/A
+-85.305321	35.047451	Auditorium	Proposed	N/A	N/A
+-85.310715	35.04607	Stabucks	Proposed	N/A	N/A
+-85.310234	35.045563	EPB	Proposed	N/A	N/A
+-85.308487	35.045132	U.S. Post Office	Proposed	N/A	N/A
+-85.306786	35.042427	Table 2 Restaurant	Proposed	N/A	N/A
+-85.310661	35.063648	Business Development Center	Proposed	N/A	N/A
+-85.308922	35.042442	The Social	Proposed	N/A	N/A
+-85.308655	35.050514	Chattanoog City Courthouse	Proposed	N/A	N/A
+-85.307442	35.06245	Good Dog	Proposed	N/A	N/A
+-85.308632	35.06382	North Chattanooga Post Office	Proposed	N/A	N/A
+-85.30397	35.049267	Chad's Records	Proposed	N/A	N/A
+-85.304611	35.041985	Times Free Press	Proposed	N/A	N/A
+-85.30648	35.042931	Downtown Fellowship	Proposed	N/A	N/A
+-85.310234	35.045193	EPB	Proposed	N/A	N/A
+-85.308487	35.043751	Federal Bldg.	Proposed	N/A	N/A
+-85.303696	35.050758	The Jefferson	Proposed	N/A	N/A
+-85.309799	35.041637	Stroud's Coffee	Proposed	N/A	N/A
+-85.309608	35.041203	Chattanoogan	Proposed	N/A	N/A
+-85.307106	35.043552	City Hall	Proposed	N/A	N/A
+-85.32843	35.010983	TBA	Proposed	N/A	N/A
+-85.328346	35.010036	Placemark 200	Proposed	N/A	N/A
+-85.304642	35.034214	Tienda Jalisco Taqueria	Proposed	N/A	N/A

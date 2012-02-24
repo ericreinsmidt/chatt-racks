@@ -9,10 +9,13 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="scripts/bikemap.js" type="text/javascript" charset="utf-8" async defer></script>
   </head>
-  <body onload="initialize()">
-    <div id="info">
-    </div>
+  <body onload="initialize();">
     <div id="map_canvas">
+    </div>
+    <div id="button">
+      <input class="btn" type="button" name="someButton" value="Load Available" onclick="clearMarkers(); makeRequest('data/bikerackavailable.txt');" >
+      <input class="btn" type="button" name="someButton" value="Load Proposed" onclick="clearMarkers(); makeRequest('data/bikerackproposed.txt');" >
+      <input class="btn" type="button" name="someButton" value="Load All" onclick="clearMarkers(); makeRequest('data/bikerackall.txt');" >
     </div>
   </body>
 </html>

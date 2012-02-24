@@ -2,22 +2,34 @@ var map;
 var infowindow;
 var contentString;
 var bikeRacks = [];
+var zoomLevel = 11
 var image = new google.maps.MarkerImage('img/dot.png',
 	new google.maps.Size(10,10)
 );
 
-function initialize() {
+function initialize(filename) {
 	var myOptions = {
 		center: new google.maps.LatLng(35.047996,-85.305544),
-		zoom: 15,
+		zoom: zoomLevel,
 		mapTypeId: google.maps.MapTypeId.HYBRID
 	};
 	detectBrowser();
 	map = new google.maps.Map(document.getElementById("map_canvas"),
 		myOptions);
-	makeRequest();
+	makeRequest(filename);
 	prepareGeolocation();
-		doGeolocation();
+	doGeolocation();
+}
+
+function clearMarkers() {
+	infowindow.close();
+	if (bikeRacks) {
+		for (var i = 0; i < bikeRacks.length; i++ ) {
+			//alert(bikeRacks[i].rackLocation);
+			bikeRacks[i].setMap(null);
+		}
+		bikeRacks.length = 0;
+	}
 }
 
 function detectBrowser() {
@@ -26,19 +38,24 @@ function detectBrowser() {
 
 	if (useragent.indexOf('iPhone') != -1 || useragent.indexOf('Android') != -1 ) {
 		mapdiv.style.width = '100%';
-		mapdiv.style.height = '90%';
+		mapdiv.style.height = '95%';
+		button.style.width = '100%';
+		button.style.height = '5%';
 	} else {
-		mapdiv.style.marginTop = '25px';
-		mapdiv.style.width = '600px';
-		mapdiv.style.height = '800px';
+		mapdiv.style.marginLeft = '5%';
+		mapdiv.style.marginRight = '5%';
+		mapdiv.style.width = '90%';
+		mapdiv.style.height = '90%';
+		button.style.width = '90%';
+		button.style.height = '5%';
 	}
 }
 
-function makeRequest() {
+function makeRequest(filename) {
 	var result = null;
 	var scriptUrl = "data/bikerack.txt";
 	$.ajax({
-		url: scriptUrl,
+		url: filename,
 		type: 'get',
 		dataType: 'text',
 		async: false,
@@ -57,7 +74,7 @@ function dispCSV(csvdoc) {
 
 			bikeRackCoords = new google.maps.LatLng(lineElem[1], lineElem[0]);
 
-			bikeRacks[i] = new google.maps.Marker({
+			marker = new google.maps.Marker({
 				icon: image,
 				pixelOffset: new google.maps.Size(54, 75),
 				position: bikeRackCoords,
@@ -65,13 +82,14 @@ function dispCSV(csvdoc) {
 				title: lineElem[2]
 			});
 
-			bikeRacks[i].setMap(map);
-			bikeRacks[i].set("rackLocation", lineElem[2]);
-			bikeRacks[i].set("rackAvailability", lineElem[3]);
-			bikeRacks[i].set("rackType", lineElem[5]);
-			bikeRacks[i].set("rackSpaces", lineElem[4]);
-			google.maps.event.addListener(bikeRacks[i], 'click', showInfoWindow);
+			marker.setMap(map);
+			marker.set("rackLocation", lineElem[2]);
+			marker.set("rackAvailability", lineElem[3]);
+			marker.set("rackType", lineElem[5]);
+			marker.set("rackSpaces", lineElem[4]);
+			google.maps.event.addListener(marker, 'click', showInfoWindow);
 			infowindow = new google.maps.InfoWindow();
+			bikeRacks.push(marker);
 		}
 	}
 }
@@ -120,7 +138,7 @@ function doGeolocation() {
 		var coords = position.coords || position.coordinate || position;
 		var latLng = new google.maps.LatLng(coords.latitude, coords.longitude);
 		map.setCenter(latLng);
-		map.setZoom(12);
+		map.setZoom(zoomLevel);
 		var marker = new google.maps.Marker({
 			map: map,
 			position: latLng,
