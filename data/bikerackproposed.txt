@@ -48,7 +48,7 @@
 -85.312035	35.052624	Creative Discovery Museum	Proposed	Larger rack	N/A
 -85.30941	35.041313	Crye-Leike	Proposed	36 from curb	N/A
 -85.310738	35.046906	Capital Mark Bank	Proposed	36	N/A
--85.310745	35.047863	"Tivoli - Broad, 7th"	Proposed	36	N/A
+-85.310745	35.047863	Tivoli - Broad, 7th	Proposed	36	N/A
 -85.310822	35.049068	Areva	Proposed	36	N/A
 -85.310387	35.049419	Regions	Proposed	36	N/A
 -85.310852	35.051392	JK3 Clothing Store	Proposed	36 (alternative placement: 24 from railing)	N/A
